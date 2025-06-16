@@ -36,7 +36,7 @@ blackfriday:
 params:
   # parameter used to specify the number of article in each row 
   # for the summary pages, the possible options are: 2, 3, 4, 5 or 6
-  articlesPerRow: 3 
+  articlesPerRow: 5 
 
   # option to specify the favicon image of the site
   # the path is relative to the folder "assetDir" of this configuration
@@ -57,7 +57,7 @@ params:
   summary:
     # option to specify the default image in the summary list
     # the starting folder is configure in "assetDir" of this file
-     defaultImage : "/images/gugu.jpeg"
+    defaultImage : "/images/default_summary1.jpg"
   
   # loading options
   loading:
@@ -123,8 +123,8 @@ params:
     logo: "/images/LOGO_PWND.svg"
     # option to specify your contact email in the footer
     email: 
-      link: name.surname@domain.com
-    #  title: My Email
+      link: contatto@punkwillneverdie.com
+      title: Contattaci!
     # option to specify your linkedin profile in the footer
     #linkedin: 
     #  link: your_linkedin_profile
