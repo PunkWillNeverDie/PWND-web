@@ -7,3 +7,11 @@ summary = "This is a custom summary for my article"
 showInMenu  = true
 weight = 4
 +++
+
+# Contattaci via email 
+
+# Scrivici su Signal/WhatsApp durante la trasmissione
+
+# YouTube
+
+# Instagram
