@@ -153,7 +153,7 @@ params:
     #    link: username
     #    title: Telegram
     # option to specify the copyright in the footer
-    copyright: PWND - 2025-2026
+    copyright: PWND 2025-2026
 
 ###################################################################
 ################## multilanguage support options ##################

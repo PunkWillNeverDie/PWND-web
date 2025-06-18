@@ -19,12 +19,12 @@
                 <img src="{{- $image -}}" style="width:{{- .Site.Params.homepage.imageWidth -}}" alt="Myself">
                 </figure>
             </div>
-            <div class="column is-5 is-offset-1 landing-caption">
-                <h1 class="title is-1 is-bold is-spaced">
+            <div class="column is-6 is-offset-1 landing-caption">
+                <h3 class="title is-1 is-bold is-spaced" style="font-family: Michroma;">
                 {{- $title -}}
-                </h1>
+                </h3>
                 {{- with $undersubtitle -}}
-                <h2 class="subtitle is-5 is-muted">
+                <h2 style="font-family: Michroma;"class="subtitle is-5 is-muted">
                 {{ . }}
                 </h2>
                 {{- end -}}
@@ -35,9 +35,9 @@
                 </p>  */}} -->
                 <br>
                 {{- with $subtitle -}}
-                <h2 class="subtitle is-5 is-ocentered">
+                <h8 style="font-family: Michroma;" class="subtitle is-5 is-ocentered">
                 {{ . }}
-                </h2>
+                </h8>
                 {{- end -}}
                 {{- $articles := first 3 (where .Site.RegularPages "Section" "blogebroadcasts") -}}
                 <div class="columns is-multiline">
