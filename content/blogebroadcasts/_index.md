@@ -1,9 +1,8 @@
 +++
 date = '2025-06-16T18:03:45+02:00'
 draft = false
-title = 'Blog!'
+title = 'Blog & Broadcasts'
 hideLastModified = true
-summaryImage = "gugu.jpeg" 
-keepImageRatio = true
 showInMenu  = true
+weight = 2
 +++

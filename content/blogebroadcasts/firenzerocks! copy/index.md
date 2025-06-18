@@ -1,11 +1,10 @@
 +++
 date = '2025-06-16T17:30:54+02:00'
 draft = false
-title = 'Pupazzo'
+title = '1234123412341234'
 hideLastModified = true
 summaryImage = "gugu.jpeg" 
 keepImageRatio = true
-tags = ["Tag1", "tag2", "tag 3"]
 summary = "This is a custom summary for my article"
 showInMenu  = false
 +++

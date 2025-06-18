@@ -17,7 +17,7 @@ theme: refresh
 ## Option to disable additional language in your site.
 # disableLanguages: ["ru"]
 
-disableKinds: ["sitemap","RSS"]
+#disableKinds: ["sitemap","RSS"]
 
 # Option to specify that all links will be open in a new tab.
 blackfriday:
@@ -25,13 +25,6 @@ blackfriday:
 
 #Taxonomies:
   tag: "tags"
-
-# Supported fonts are:
-# https://fonts.google.com/
-
-# Icons taken from:
-# https://konpa.github.io/devicon/
-# https://bulkitv2.cssninja.io/_components-icons-fa.html
 
 params:
   # parameter used to specify the number of article in each row 
@@ -51,7 +44,7 @@ params:
   # parameter used to specify if you want to calculate the js integrity
   jsIntegrity: true
   # option to specify the main colour of the theme
-  mainColour: "#000000"
+  mainColour: "#55D400"
 
   # summary options
   summary:
@@ -77,12 +70,12 @@ params:
     # the starting folder is configure in "assetDir" of this file
     logo: "/images/LOGO_PWND.svg"
     # option to specify the font of the sidebar
-    fontFamily: "Open Sans" # "Open Sans"
+    fontFamily: "Michroma" # "Open Sans"
 
   # navbar options
   navbar:
     # option to specify the font used in the navbar
-    fontFamily: "Open Sans"
+    fontFamily: "Michroma"
     # option to show the little logos on the side of the navbar items
     showIcons: false
     
@@ -102,13 +95,13 @@ params:
   homepage:
     # this options let you specify if you want a link to the homepage
     # it can be: "none", "menu", "footer" or "menu+footer"
-    # linkPosition: "footer" 
+    linkPosition: "menu" 
     # this options let you specify the text of the link to the homepage
-    # linkText: "Homepage"  
+    linkText: "Home"  
     # option to specify the title in the homepage
     title: Punk Will Never Die (EVER!)
     # option to specify the subtitle in the homepage
-    #subtitle: EVER
+    subtitle: Ultime da PWND
     # undersubtitle
     undersubtitle: Punk Podcast & Web Radio
     # option to specify image in the homepage
@@ -166,7 +159,7 @@ params:
 ################## multilanguage support options ##################
 ###################################################################
 languages:
-  en:
+  it:
     languageName:       Italian
     weight:             1
     # When Specifying different parameters for a different language 
@@ -188,9 +181,9 @@ languages:
         # instagram: 
         #   link: username
         #   title: Instagram
-        # github: 
-        #   link: username
-        #   title: Github
+        #github: 
+        #  link: internozero-it
+        #  title: Github
         # gitlab: 
         #   link: username
         #   title: Gitlab

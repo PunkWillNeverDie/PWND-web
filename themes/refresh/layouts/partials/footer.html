@@ -11,15 +11,16 @@
             {{- if eq $type "svg" -}}
               {{- $img    = $img | resources.ExecuteAsTemplate $out_fo . }}
             {{- end -}}
-            <!-- <img src="{{- $img.Permalink | relURL -}}" alt="">-->
+            <!-- Immagine Footer da rivedere -->
+            <!-- <img src="{{- $img.Permalink | relURL -}}" alt=""> -->
         <!-- </div> -->
       </div>
       
     <div class="column">
         <div class="footer-column">
-          <div class="footer-header">
+          <!-- <div class="footer-header">
               <h3>{{ i18n "website" }}</h3>
-          </div>
+          </div>-->
           <ul class="link-list">
             {{- if or (eq $home "footer") (eq $home "menu+footer") -}}
             <li>
@@ -41,12 +42,12 @@
                 {{- end -}}
               </li>
             <li>
-              {{- with .Site.GetPage "tags" -}}
+              <!--{{- with .Site.GetPage "tags" -}}
               <a href="{{- .RelPermalink -}}">
                 <span class="icon"><i class="fa fa-tag"></i></span> 
                 {{ i18n "allTags" }}
               </a>
-              {{- end -}}
+              {{- end -}}-->
             </li>
           </ul>
         </div>

@@ -57,7 +57,7 @@
             {{- end -}}
           </a>
         {{- end -}}
-        {{ range .Site.RegularPages }}
+        {{ range sort .Site.RegularPages.ByWeight }}
           {{- if eq .Params.showInMenu true -}}
           <a href="{{- .Permalink | relURL -}}" class="navbar-item is-secondary">
             {{- if $showIcons -}}
@@ -67,7 +67,7 @@
           </a>
           {{- end -}}
         {{- end -}}
-        {{- range .Site.Sections -}}
+        {{- range .Site.Sections.ByWeight -}}
           {{- $shmenu := true -}}
           {{- if (isset .Params "showinmenu") -}}
             {{- $shmenu = .Params.showinmenu -}}
@@ -86,7 +86,7 @@
                 <!-- <a href="{{- .Permalink -}}" class="navbar-item">
                   > All
                 </a> -->
-                {{- range .Sections -}}
+                {{- range .Sections.ByWeight -}}
                 <a href="{{- .Permalink | relURL -}}" class="navbar-item">
                   {{- .Title -}}
                 </a>
